@@ -33,18 +33,19 @@ A simple and responsive **Weather Forecast App** built using **React + Vite** th
 ## 📂 Project Structure
 
 Check_Weather/
-├── public/ # Static assets
-├── src/
-│ ├── Components/ # Reusable components
-│ │ ├── InfoBox.jsx
-│ │ ├── SearchBox.jsx
-│ │ └── WeatherApp.jsx
-│ ├── assets/ # Images, icons, etc.
-│ ├── App.jsx # Main app component
-│ ├── main.jsx # Entry point
-├── package.json # Dependencies & scripts
-├── vite.config.js # Vite configuration
-└── README.md # Project documentation
+├── public/               # Static assets (icons, manifest, etc.)
+├── src/                  # Application source code
+│   ├── Components/       # Reusable components
+│   │   ├── InfoBox.jsx   # Component for displaying weather info
+│   │   └── SearchBox.jsx # Component for city search input
+│   ├── WeatherApp.jsx    # Main weather app container
+│   ├── App.jsx           # Root app component
+│   ├── main.jsx          # Application entry point
+│   ├── assets/           # Images, icons, etc.
+├── package.json          # Dependencies & scripts
+├── vite.config.js        # Vite configuration
+├── README.md             # Project documentation
+
 
 
 🧑‍💻 Author
